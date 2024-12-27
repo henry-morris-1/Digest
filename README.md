@@ -1,5 +1,4 @@
 # Digest
-## Group J: Final
 
 
 ### Features
@@ -44,10 +43,6 @@
    - Uses a network-first approach when caching and returning cache results
    - Returns an offline HTML file when network failure and cache miss.
 
-### Schema ER diagram
-
-- ❌!❌!❌!❌ TODO ❌!❌!❌!❌
-
 
 ### API Endpoint Table
 Method   | Route                               | Description
@@ -66,34 +61,3 @@ Method   | Route                               | Description
 `DELETE` | `/users/movies/lists/[listId]`      | Deletes an existing list
 
 Ditto for /users/music/... and /users/games/...
-
-
-### Team Member Contributions
-
-#### Henry Morris
-
-* Implemented video game API integration
-   * Connected to Giantbomb API and added schema for games
-* Overhauled pages to generalize for all media types (instead of having pages for each type of media)
-   * Refactored pages and routes on the frontend to work with a general object containting title, poster, etc.
-   * Added API controller functions to convert responses from connected APIs (TMDb, Musicbrainz, Last.fm, Giantbomb) to create these objects
-* Added user statistics to the user tab on the homepage
-   * Shows and links the number of logs and bookmarks for each media type
-
-#### Julian Madrigal
-
-* 
-
-#### Kennedy Tate
-
-* 
-
-#### Milestone Effort Contribution
-
-Milestone   | Henry Morris | Julian Madrigal | Kennedy Tate
------------ | ------------ | --------------- | ------------
-Milestone 1 | 65%          | 30%             | 5%
-Milestone 2 | 92.5%        | 7.5%            | 0%
-Final       | 70%          | 30%             | 0%
------------ | ------------ | --------------- | ------------
-TOTAL:      | 227.5%       | 67.5%           | 5%
