@@ -1,4 +1,4 @@
-# Add API endpoint docs here
+# API Endpoints
 
 ### GET /users/[userId]/movies/log
 Fetch a user's movie logs
